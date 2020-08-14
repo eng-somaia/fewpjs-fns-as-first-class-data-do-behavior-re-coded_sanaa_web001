@@ -36,8 +36,6 @@ function displayMessage(m){
 }*/
 let testContent = "TEST";
    function   displayMessage(testContent){
-      let content = document.getElementById("greeting").innerText;
-     content.innerHTML= testContent;
-     
+      let content = document.getElementById("greeting").innerText= testContent;
    }
    
