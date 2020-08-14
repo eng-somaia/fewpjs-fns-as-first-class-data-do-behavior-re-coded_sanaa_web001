@@ -1,6 +1,6 @@
 /* Given Code, don't edit */
 
-document.querySelector("button").addEventListener("click", handleClick);
+document.querySelector("button").addEventListener("click", handleClick());
 
 function handleClick(e) {
   const timeString = document.getElementById('time').value
@@ -10,4 +10,34 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+let n = "text";
+function greet(n){
+  let ip = n.split(':');
+  //console.log("ip");
+
+  let x = parseInt(ip[0],10);
+  let result;
+  if (x <= 12){
+  result = console.log("Good Morning");
+  }
+  else if (x > 12 && x < 17){
+   result = console.log("Good Afternoon");
+  }
+  else{ 
+   result = console.log("Good Evening");
+  }
+  return result;
+}
 /* Write your implementation of displayMessage() */
+    /*  let m = "TEST"
+function displayMessage(m){
+      let content = document.getElementById("greeting").innerText;
+      m = content;
+}*/
+let testContent = "TEST";
+   function   displayMessage(testContent){
+      let content = document.getElementById("greeting").innerText;
+     content.innerHTML= testContent;
+     
+   }
+   
