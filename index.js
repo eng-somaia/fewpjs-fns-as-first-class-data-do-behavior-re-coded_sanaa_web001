@@ -14,7 +14,6 @@ let n = "text";
 function greet(n){
   let ip = n.split(':');
   let x = parseInt(ip[0],10);
-  let result;
   if (x < 12){
   return 'Good Morning';
   }
@@ -22,9 +21,8 @@ function greet(n){
    return "Good Afternoon";
   }
   else{ 
-   result = console.log("Good Evening");
+   return "Good Evening";
   }
-  return result;
 }
 /* Write your implementation of displayMessage() */
   let testContent = "TEST";
