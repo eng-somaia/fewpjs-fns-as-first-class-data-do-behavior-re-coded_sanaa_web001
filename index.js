@@ -13,14 +13,12 @@ function handleClick(e) {
 let n = "text";
 function greet(n){
   let ip = n.split(':');
-  //console.log("ip");
-
   let x = parseInt(ip[0],10);
   let result;
-  if (x <= 12){
+  if (x < 12){
   result = console.log("Good Morning");
   }
-  else if (x > 12 && x < 17){
+  else if (x >= 12 && x < 17){
    result = console.log("Good Afternoon");
   }
   else{ 
@@ -29,13 +27,6 @@ function greet(n){
   return result;
 }
 /* Write your implementation of displayMessage() */
-    /*  let m = "TEST"
-function displayMessage(m){
-      let content = document.getElementById("greeting").innerText;
-      m = content;
-}*/
-let testContent = "TEST";
+  let testContent = "TEST";
    function   displayMessage(testContent){
-      let content = document.getElementById("greeting").innerText= testContent;
-   }
-   
+      let content = document.getElementById("greeting").innerText = testContent;   }
