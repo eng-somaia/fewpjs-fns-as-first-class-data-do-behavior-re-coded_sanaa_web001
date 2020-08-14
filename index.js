@@ -16,7 +16,7 @@ function greet(n){
   let x = parseInt(ip[0],10);
   let result;
   if (x < 12){
-  result = console.log("Good Morning");
+  return console.log("Good Morning");
   }
   else if (x >= 12 && x < 17){
    result = console.log("Good Afternoon");
