@@ -16,7 +16,7 @@ function greet(n){
   let x = parseInt(ip[0],10);
   let result;
   if (x < 12){
-  return console.log("Good Morning");
+  return console.log('Good Morning');
   }
   else if (x >= 12 && x < 17){
    result = console.log("Good Afternoon");
@@ -27,6 +27,6 @@ function greet(n){
   return result;
 }
 /* Write your implementation of displayMessage() */
-  //let testContent = "TEST";
+  let testContent = "TEST";
    function   displayMessage(testContent){
       let content = document.getElementById("greeting").innerText = testContent;   }
