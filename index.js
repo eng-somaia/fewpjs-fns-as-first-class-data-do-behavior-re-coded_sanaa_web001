@@ -19,7 +19,7 @@ function greet(n){
   return 'Good Morning';
   }
   else if (x >= 12 && x < 17){
-   result = console.log("Good Afternoon");
+   return "Good Afternoon";
   }
   else{ 
    result = console.log("Good Evening");
